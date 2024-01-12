@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Decision Maker</title>
+    <link rel="stylesheet" href="../src/css/output.css">
+    <script src="../src/script/script.js"></script>
+</head>
+<body class="m-0 p-0 border-box w-full">
+    <header class="bg-slate-200 p-5">
+        <h1 class="text-center text-4xl">Random Decision Maker</h1>
+        <div class="px-10 py-5">
+            <label for="option" class="block mb-2 text-lg font-medium">Please input an option</label>
+            <input type="text" id="option" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-3/4 p-2.5">
+            <button id="add-option" class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full">Add Option</button>
+        </div>
+        
+    </header>
+    <main class="h-svh">
+        <div id="options-box">
+            <ul id="option-list">
+
+            </ul>
+        </div>
+        <button id="make-decision" class="m-2 bg-purple-500 hover:bg-purple-700 text-white text-xl font-bold py-4 px-8 w-max rounded-full">Make Decision</button>
+    </main>
+    <footer class="bg-slate-200 p-5">
+        <p class="copy text-center">&copy; <span id="currentyear"></span> | Lisa C. Heinhold</p>
+    </footer>
+</body>
+</html>
